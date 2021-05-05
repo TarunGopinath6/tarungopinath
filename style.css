@@ -46,14 +46,18 @@ body {
 }
 
 .dp {
-  background-image: url(pictures/f1chennai.jpeg);
+  background-image: url(pictures/bernieonthebike.jpg);
+  background-repeat: no-repeat;
   width: 100%;
   height: 700px;
-  object-fit: cover;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .parallaxheader {
   background-image: url("pictures/f1chennai.jpeg");
+  background-repeat: no-repeat;
   min-height: 700px;
   background-attachment: fixed;
   background-position: center;
@@ -62,12 +66,12 @@ body {
 }
 
 .parallax1 {
-  background-image: url("pictures/trial.jpg");
+  background-image: url("pictures/f1chennai.jpeg");
   min-height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin-bottom: 0px;
 }
 
